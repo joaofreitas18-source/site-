@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site oficial do stand de Engenharia Mecânica na Feira de Profissões. Conheça a carreira, história, mercado e nossa apresentação.">
+  <title>Engenharia Mecânica | Feira de Profissões</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header / Navegação -->
+  <header class="header">
+    <div class="container header-content">
+      <a href="#home" class="logo">
+        <span class="logo-icon">⚙️</span>
+        <span class="logo-text">Eng. Mecânica</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#historia" class="nav-link">História</a>
+        <a href="#mercado" class="nav-link">Mercado</a>
+        <a href="#stand" class="nav-link">Stand</a>
+        <a href="#creditos" class="nav-link">Créditos</a>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Apresentação da Profissão (Home) -->
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="hero-badge">Feira de Profissões</p>
+        <h1 class="hero-title">Engenharia Mecânica</h1>
+        <p class="hero-slogan">"Projetando o movimento que transforma o mundo"</p>
+        <p class="hero-desc">
+          A Engenharia Mecânica é uma das mais antigas e abrangentes áreas da engenharia. 
+          Combina física, matemática e ciência dos materiais para conceber, analisar, fabricar 
+          e manter sistemas mecânicos que estão presentes em praticamente tudo ao nosso redor: 
+          veículos, usinas de energia, robôs, equipamentos médicos e muito mais.
+        </p>
+        <div class="hero-cta">
+          <a href="#historia" class="btn btn-primary">Conhecer a História</a>
+          <a href="#mercado" class="btn btn-outline">Ver o Mercado</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rotina e Importância -->
+    <section class="section section-light" id="sobre">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">O que faz um Engenheiro Mecânico?</h2>
+          <p class="section-subtitle">Rotina, atribuições e importância para a sociedade</p>
+        </div>
+
+        <div class="cards-grid three-cols">
+          <article class="card">
+            <div class="card-icon">🛠️</div>
+            <h3>Rotina de Trabalho</h3>
+            <p>
+              O engenheiro mecânico atua no projeto de máquinas e componentes, simulações computacionais (CAD/CAE), 
+              análise de falhas, otimização de processos produtivos, manutenção preditiva e gestão de projetos. 
+              Trabalha tanto em escritórios quanto em chão de fábrica e laboratórios.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">📋</div>
+            <h3>Principais Atribuições</h3>
+            <p>
+              Projetar sistemas mecânicos e térmicos, dimensionar peças e mecanismos, especificar materiais, 
+              supervisionar fabricação e montagem, garantir segurança e eficiência energética, além de 
+              desenvolver soluções sustentáveis e inovadoras.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🌍</div>
+            <h3>Importância Social</h3>
+            <p>
+              Sem a Engenharia Mecânica não existiriam automóveis, aviões, usinas elétricas, 
+              sistemas de refrigeração, próteses avançadas ou robôs industriais. É a base da 
+              indústria moderna e fundamental para a transição energética e a Indústria 4.0.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Fatos Históricos -->
+    <section id="historia" class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Fatos Históricos</h2>
+          <p class="section-subtitle">Origem e evolução da Engenharia Mecânica</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Pré-história – Antiguidade</span>
+              <h3>As raízes da mecânica</h3>
+              <p>
+                As máquinas simples (alavanca, roda, plano inclinado, cunha, parafuso e roldana) 
+                já eram conhecidas no Oriente Próximo. A roda foi inventada na Mesopotâmia por volta 
+                do 5º milênio a.C. Arquimedes (287–212 a.C.) formalizou princípios fundamentais como 
+                a lei da alavanca e a vantagem mecânica.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Idade Média e Renascimento</span>
+              <h3>Inovações e estudos avançados</h3>
+              <p>
+                Na Era de Ouro Islâmica, Al-Jazari (1206) publicou o “Livro do Conhecimento de 
+                Dispositivos Mecânicos Engenhosos”. Leonardo da Vinci projetou máquinas complexas. 
+                Heron de Alexandria já havia descrito o aeolipile, um precursor da turbina a vapor.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Século XVIII</span>
+              <h3>Revolução Industrial</h3>
+              <p>
+                A Engenharia Mecânica se consolida como disciplina com as máquinas a vapor de 
+                Thomas Newcomen (1712) e James Watt. Surge a produção em massa e a necessidade de 
+                engenheiros especializados em máquinas e processos industriais.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Séculos XIX e XX</span>
+              <h3>Expansão e especialização</h3>
+              <p>
+                Desenvolvimento de motores a combustão interna, turbinas, automóveis, aviação e 
+                sistemas de refrigeração. A disciplina se formaliza academicamente e se expande 
+                para aeroespacial, nuclear, biomédica e automação.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Século XXI</span>
+              <h3>Indústria 4.0 e sustentabilidade</h3>
+              <p>
+                Hoje a área integra robótica, manufatura aditiva (impressão 3D), Internet das Coisas 
+                (IoT), inteligência artificial e energias renováveis. O engenheiro mecânico está no 
+                centro da transição energética e da digitalização industrial.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Panorama Atual e Mercado -->
+    <section id="mercado" class="section section-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Panorama Atual e Mercado</h2>
+          <p class="section-subtitle">Dados estatísticos, áreas de atuação e perspectivas</p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <span class="stat-value">R$ 11.800+</span>
+            <span class="stat-label">Salário médio mensal (Brasil)</span>
+            <span class="stat-note">Fonte: CAGED / Portal Salário 2026</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">R$ 4.500 – 8.000</span>
+            <span class="stat-label">Faixa júnior (início de carreira)</span>
+            <span class="stat-note">Varia conforme região e empresa</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">R$ 13.000 – 22.000+</span>
+            <span class="stat-label">Faixa sênior / gestão</span>
+            <span class="stat-note">Petróleo, aeroespacial e automotivo</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">+71</span>
+            <span class="stat-label">Saldo de vagas (12 meses)</span>
+            <span class="stat-note">Mercado em crescimento moderado</span>
+          </div>
+        </div>
+
+        <h3 class="subsection-title">Principais Áreas de Atuação</h3>
+        <div class="cards-grid four-cols">
+          <article class="card card-small">
+            <div class="card-icon">🚗</div>
+            <h4>Automotiva</h4>
+            <p>Projeto de veículos, motores, sistemas de transmissão e veículos elétricos.</p>
+          </article>
+          <article class="card card-small">
+            <div class="card-icon">✈️</div>
+            <h4>Aeroespacial</h4>
+            <p>Aeronaves, propulsão, estruturas e sistemas de controle de voo.</p>
+          </article>
+          <article class="card card-small">
+            <div class="card-icon">⚡</div>
+            <h4>Energia</h4>
+            <p>Usinas térmicas, turbinas, energias renováveis e eficiência energética.</p>
+          </article>
+          <article class="card card-small">
+            <div class="card-icon">🏭</div>
+            <h4>Manufatura</h4>
+            <p>Processos de fabricação, automação, manutenção e Indústria 4.0.</p>
+          </article>
+          <article class="card card-small">
+            <div class="card-icon">🛢️</div>
+            <h4>Petróleo e Gás</h4>
+            <p>Equipamentos de exploração, refino e sistemas offshore.</p>
+          </article>
+          <article class="card card-small">
+            <div class="card-icon">🤖</div>
+            <h4>Robótica e Automação</h4>
+            <p>Robôs industriais, mecatrônica e sistemas inteligentes.</p>
+          </article>
+          <article class="card card-small">
+            <div class="card-icon">❄️</div>
+            <h4>Refrigeração e HVAC</h4>
+            <p>Climatização, sistemas térmicos e eficiência em edifícios.</p>
+          </article>
+          <article class="card card-small">
+            <div class="card-icon">🩺</div>
+            <h4>Biomédica</h4>
+            <p>Próteses, equipamentos médicos e biomecânica.</p>
+          </article>
+        </div>
+
+        <div class="highlight-box">
+          <h3>Perspectivas Futuras</h3>
+          <p>
+            A demanda por engenheiros mecânicos permanece sólida, impulsionada pela 
+            <strong>transição energética</strong>, pela <strong>eletromobilidade</strong>, 
+            pela <strong>manufatura aditiva</strong> e pela integração de tecnologias digitais 
+            (gêmeos digitais, manutenção preditiva com IA e IoT industrial). 
+            Profissionais com conhecimento em sustentabilidade, programação e dados 
+            terão destaque no mercado.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Apresentação do Stand -->
+    <section id="stand" class="section section-dark">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Nosso Stand na Feira</h2>
+          <p class="section-subtitle">Registro da apresentação e materiais expostos</p>
+        </div>
+
+        <div class="stand-intro">
+          <p>
+            No dia da Feira de Profissões, nosso stand de Engenharia Mecânica foi pensado 
+            para mostrar de forma prática e interativa o universo dessa carreira. 
+            Abaixo estão os registros e evidências do que foi apresentado ao público.
+          </p>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <div class="gallery-placeholder">
+              <span>📷</span>
+              <p>Foto do Stand</p>
+            </div>
+            <figcaption>Vista geral do stand montado no dia do evento</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <div class="gallery-placeholder">
+              <span>🛠️</span>
+              <p>Materiais Expostos</p>
+            </div>
+            <figcaption>Maquetes, protótipos e cartazes educativos</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <div class="gallery-placeholder">
+              <span>👥</span>
+              <p>Interação com o Público</p>
+            </div>
+            <figcaption>Momentos de demonstração e diálogo com visitantes</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <div class="gallery-placeholder">
+              <span>📊</span>
+              <p>Painéis Informativos</p>
+            </div>
+            <figcaption>Gráficos de mercado e linha do tempo histórica</figcaption>
+          </figure>
+        </div>
+
+        <div class="cards-grid two-cols stand-details">
+          <article class="card">
+            <h3>Materiais e Atividades</h3>
+            <ul class="feature-list">
+              <li>Maquetes de mecanismos simples e compostos</li>
+              <li>Protótipo de sistema mecânico funcional</li>
+              <li>Cartazes com história, áreas de atuação e salários</li>
+              <li>Demonstrações práticas de princípios mecânicos</li>
+              <li>Vídeos curtos sobre aplicações reais da profissão</li>
+              <li>Material impresso com dicas de carreira</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Relato da Experiência</h3>
+            <p>
+              Apresentar o stand foi uma experiência enriquecedora. Conversamos com alunos 
+              de diferentes idades, esclarecemos dúvidas sobre o curso e o mercado de trabalho, 
+              e percebemos o interesse genuíno por áreas como robótica, veículos elétricos e 
+              energias renováveis.
+            </p>
+            <p>
+              A interação com o público reforçou a importância de comunicar a engenharia de 
+              forma acessível e inspiradora. Foi gratificante ver jovens se interessando pela 
+              carreira após conhecerem aplicações concretas do dia a dia.
+            </p>
+          </article>
+        </div>
+
+        <div class="note-box">
+          <strong>📌 Instrução para o aluno:</strong> 
+          Substitua as imagens placeholder acima pelas fotos reais do seu stand. 
+          Basta colocar os arquivos na pasta <code>imagens/</code> e atualizar os caminhos 
+          no HTML.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 5. Rodapé / Créditos -->
+  <footer id="creditos" class="footer">
+    <div class="container footer-content">
+      <div class="footer-info">
+        <h3>Créditos do Projeto</h3>
+        <p><strong>Nome completo:</strong> [Seu Nome Completo Aqui]</p>
+        <p><strong>Turma:</strong> [Sua Turma / Ano]</p>
+        <p><strong>Disciplina / Projeto:</strong> Feira de Profissões – Projeto Interdisciplinar</p>
+        <p><strong>Instituição:</strong> [Nome da Escola / Colégio]</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Links Úteis</h3>
+        <ul>
+          <li><a href="https://github.com/seu-usuario/feira-engenharia-mecanica" target="_blank" rel="noopener">Repositório no GitHub</a></li>
+          <li><a href="#home">Voltar ao topo</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-about">
+        <h3>Sobre este site</h3>
+        <p>
+          Site desenvolvido como portfólio digital e registro oficial da apresentação 
+          do stand de Engenharia Mecânica na Feira de Profissões.
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 – Projeto Feira de Profissões | Engenharia Mecânica</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
